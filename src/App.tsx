@@ -1,10 +1,15 @@
+import { PathFindingProvider } from "./context/PathFindingContext";
+import { TileProvider } from "./context/TileContext";
+
 function App() {
   return (
-    <>
-      <div>
-        <h1 className="text-6xl">Bun+Vite</h1>
-      </div>
-    </>
+    <PathFindingProvider>
+      <TileProvider>
+        <div>
+          <h1 className="text-6xl">Hello</h1>
+        </div>
+      </TileProvider>
+    </PathFindingProvider>
   );
 }
 
