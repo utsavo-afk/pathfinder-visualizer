@@ -6,4 +6,4 @@ A react application to visualize different pathfinding algorithms using BFS, DFS
 
 - [✅] Pathfinding Context
 - [✅] Tile Context
-- [TODO] Speed Context
+- [✅] Speed Context
